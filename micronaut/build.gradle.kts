@@ -1,7 +1,7 @@
 plugins {
-    id("com.github.johnrengelman.shadow") version "7.1.2"
-    id("io.micronaut.application") version "3.7.10"
-    id("io.micronaut.aot") version "3.7.10"
+    id("com.github.johnrengelman.shadow") version "8.1.1"
+    id("io.micronaut.application") version "4.3.1"
+    id("io.micronaut.aot") version "4.3.1"
 }
 
 version = "0.1"
@@ -17,7 +17,7 @@ dependencies {
     implementation("io.micronaut:micronaut-jackson-databind")
     implementation("io.micronaut.security:micronaut-security-jwt")
     runtimeOnly("ch.qos.logback:logback-classic")
-    aotPlugins("io.micronaut.security:micronaut-security-aot:3.11.0")
+    aotPlugins("io.micronaut.security:micronaut-security-aot:4.6.9")
 }
 
 application {
